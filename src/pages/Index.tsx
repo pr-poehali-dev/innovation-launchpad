@@ -6,6 +6,7 @@ import { ServicesSection } from "@/components/sections/services-section"
 import { AboutSection } from "@/components/sections/about-section"
 import { ContactSection } from "@/components/sections/contact-section"
 import { MagneticButton } from "@/components/magnetic-button"
+import { MessengerFloat } from "@/components/messenger-float"
 import { useRef, useEffect, useState } from "react"
 
 export default function Index() {
@@ -174,6 +175,7 @@ export default function Index() {
     <main className="relative h-screen w-full overflow-hidden bg-background">
       <CustomCursor />
       <GrainOverlay />
+      <MessengerFloat />
 
       <div
         ref={shaderContainerRef}
