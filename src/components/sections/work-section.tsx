@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Кейсы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Выполненные работы</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "ЖК «Авангард»",
+              category: "Замена 48 счётчиков тепла — регистрация в ДГК за 3 дня",
+              year: "2025",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Ул. Ленина, 42",
+              category: "Опломбировка и регистрация 120 квартир в Водоканале",
+              year: "2025",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Частный дом",
+              category: "Замена счётчиков воды и тепла под ключ за 1 день",
+              year: "2024",
               direction: "left",
             },
           ].map((project, i) => (
