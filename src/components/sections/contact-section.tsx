@@ -78,7 +78,14 @@ export function ContactSection() {
                   <MapPin className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Локация</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Хабаровск, Россия</p>
+                <a
+                  href="https://yandex.ru/maps/?text=Владивосток%2C+ул.+Фастовская%2C+29"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-base text-foreground transition-colors hover:text-foreground/70 md:text-2xl"
+                >
+                  г. Владивосток, ул. Фастовская, 29
+                </a>
               </div>
 
               <div
